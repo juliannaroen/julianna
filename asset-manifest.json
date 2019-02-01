@@ -1,7 +1,7 @@
 {
   "main.css": "/julianna/static/css/main.093cfc41.chunk.css",
-  "main.js": "/julianna/static/js/main.7e3a0614.chunk.js",
-  "main.js.map": "/julianna/static/js/main.7e3a0614.chunk.js.map",
+  "main.js": "/julianna/static/js/main.ca26cc81.chunk.js",
+  "main.js.map": "/julianna/static/js/main.ca26cc81.chunk.js.map",
   "static/js/1.8e758ad1.chunk.js": "/julianna/static/js/1.8e758ad1.chunk.js",
   "static/js/1.8e758ad1.chunk.js.map": "/julianna/static/js/1.8e758ad1.chunk.js.map",
   "runtime~main.js": "/julianna/static/js/runtime~main.79f03fb7.js",
@@ -9,6 +9,6 @@
   "static/media/portrait.jpg": "/julianna/static/media/portrait.4e145b2f.jpg",
   "static/css/main.093cfc41.chunk.css.map": "/julianna/static/css/main.093cfc41.chunk.css.map",
   "index.html": "/julianna/index.html",
-  "precache-manifest.7d4260427425dd056d51ab14b084aa3e.js": "/julianna/precache-manifest.7d4260427425dd056d51ab14b084aa3e.js",
+  "precache-manifest.2187e4fd9c9b5734b050f79eea23e840.js": "/julianna/precache-manifest.2187e4fd9c9b5734b050f79eea23e840.js",
   "service-worker.js": "/julianna/service-worker.js"
 }
