@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/julianna/static/js/runtime~main.79f03fb7.js"
   },
   {
-    "revision": "ca26cc818c52449316b7",
-    "url": "/julianna/static/js/main.ca26cc81.chunk.js"
+    "revision": "14bc789f6a077d9fdd03",
+    "url": "/julianna/static/js/main.14bc789f.chunk.js"
   },
   {
     "revision": "8e758ad169d171081bae",
     "url": "/julianna/static/js/1.8e758ad1.chunk.js"
   },
   {
-    "revision": "ca26cc818c52449316b7",
-    "url": "/julianna/static/css/main.093cfc41.chunk.css"
+    "revision": "14bc789f6a077d9fdd03",
+    "url": "/julianna/static/css/main.2db0960a.chunk.css"
   },
   {
-    "revision": "021b788297243aab92adbe5412d046c6",
+    "revision": "2c6ba21e3893c8fc200142fb2b7d0f76",
     "url": "/julianna/index.html"
   }
 ];
