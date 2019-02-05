@@ -1,5 +1,10 @@
 .app {
   margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,8 +14,8 @@
   max-width: 300px;
 }
 
-.right-items {
-  margin-left: 20px;
+.block {
+  display: block;
 }
 
 .home-paragraph {
@@ -21,6 +26,7 @@
 
 .social-container img {
   max-width: 40px;
+  margin-top: 20px;
   margin-right: 10px;
 }
 

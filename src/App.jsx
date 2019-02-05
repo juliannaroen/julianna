@@ -9,25 +9,24 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-          <div className="left-items">
-            <img src={portrait} className="portrait" />
-          </div>
-          <div className="right-items">
-            <h1>Julianna Roen</h1>
-            <p className="home-paragraph">
-              Ruby and JavaScript developer based in San Francisco.
-              Building payroll, benefits, and HR software for small businesses
-              at <a href="https://gusto.com" target="_blank">Gusto</a>.
-            </p>
-            { this.renderSocial() }
-          </div>
+        <div className="flex-center">
+          <h1>Julianna Roen</h1>
+        </div>
+        <div className="flex-center">
+          <p className="home-paragraph">
+            Ruby and JavaScript developer based in San Francisco.
+            Building payroll, benefits, and HR software for small businesses
+            at <a href="https://gusto.com" target="_blank">Gusto</a>.
+          </p>
+        </div>
+        { this.renderSocial() }
       </div>
     );
   }
 
   renderSocial() {
     return (
-      <div class="social-container">
+      <div class="social-container flex-center">
         <a href="https://www.instagram.com/juliannaroen" target="_blank">
           <img src={instagram} alt="Instagram" />
         </a>
