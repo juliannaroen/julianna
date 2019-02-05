@@ -39,14 +39,6 @@ class App extends Component {
       </div>
     );
   }
-
-  renderCopyright() {
-    return (
-      <div>
-        © 2019 Julianna Roen
-      </div>
-    );
-  }
 }
 
 export default App;

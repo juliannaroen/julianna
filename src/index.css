@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
   color: white;
   font-family: 'Source Code Pro', monospace;
   -webkit-font-smoothing: antialiased;
@@ -11,6 +10,7 @@ body {
 html {
   background-color: #06d1e1;
   background: url("./assets/images/palm-trees.jpg") no-repeat center center fixed; 
+  height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
