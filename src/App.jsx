@@ -26,14 +26,14 @@ class App extends Component {
               target="_blank"
               rel="noopener noreferrer"
               onClick={this.trackEvent('Gusto')}
-            >Gusto</a>. Writing about making programming{' '}
+            >Gusto</a>. Writing on{' '}
             <a 
               href="https://medium.com/@juliannaroen"
               target="_blank"
               rel="noopener noreferrer"
               onClick={this.trackEvent('Medium')}
             >
-            easier to understand</a>.
+            Medium</a>.
           </p>
         </div>
         { this.renderSocial() }
