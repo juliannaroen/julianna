@@ -27,6 +27,10 @@ a {
  color: #3FA7D6;
 }
 
+a:hover {
+  color: #52c8d4;
+}
+
 h1 {
   font-family: 'UnifrakturMaguntia', cursive;
 }

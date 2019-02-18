@@ -29,8 +29,11 @@
   margin-top: 20px;
   margin-right: 10px;
   margin-bottom: 100px;
+  -webkit-filter: saturate(2);
+  filter: saturate(2);
 }
 
 .social-container img:hover {
-  opacity: .5;
+  -webkit-filter: saturate(8);
+  filter: saturate(8);
 }
