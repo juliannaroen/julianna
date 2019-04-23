@@ -23,12 +23,8 @@ code {
 }
 
 a {
- text-decoration: none;
- color: #3FA7D6;
-}
-
-a:hover {
-  color: #52c8d4;
+ text-decoration: underline;
+ color: #ffffff;
 }
 
 h1 {
