@@ -19,21 +19,22 @@ class App extends Component {
         </div>
         <div className="flex-center">
           <p className="home-paragraph">
-            Ruby and JavaScript developer based in San Francisco.
-            Building payroll, benefits, and HR software for small businesses
-            at <a
-              href="https://gusto.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={this.trackEvent('Gusto')}
-            >Gusto</a>. Writing on{' '}
+            Ruby and JavaScript developer based in San Francisco.{' '}
             <a 
               href="https://medium.com/@juliannaroen"
               target="_blank"
               rel="noopener noreferrer"
               onClick={this.trackEvent('Medium')}
             >
-            Medium</a>.
+              Writing about tech
+            </a>.
+            Building payroll, benefits, and HR software for small businesses
+            at <a
+              href="https://gusto.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={this.trackEvent('Gusto')}
+            >Gusto</a>.
           </p>
         </div>
         { this.renderSocial() }
