@@ -17,15 +17,11 @@ class App extends Component {
       <div className="portrait-text-block">
         { this.portrait() }
         <div>
-          <div className="flex-center">
-            { this.title() }
-          </div>
-          <div className="flex-center">
-            { this.paragraph() }
-          </div>
+          { this.title() }
+          { this.paragraph() }
+          { this.social() }
         </div>
       </div>
-      { this.social() }
     </div>
   );
 
@@ -39,27 +35,33 @@ class App extends Component {
     </div>
   );
 
-  title = () => <h1>Julianna Roen</h1>;
+  title = () => (
+    <div className="flex-center">
+      <h1>Julianna Roen</h1>
+    </div>
+  );
 
   paragraph = () => (
-    <p className="home-paragraph">
-      Ruby and JavaScript developer based in San Francisco.{' '}
-      <a 
-        href="https://medium.com/@juliannaroen"
-        target="_blank"
-        rel="noopener noreferrer"
-        onClick={this.trackEvent('Medium')}
-      >
-        Writing about tech
-      </a>.
-      Building payroll, benefits, and HR software for small businesses
-      at <a
-        href="https://gusto.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        onClick={this.trackEvent('Gusto')}
-      >Gusto</a>.
-    </p>
+    <div className="flex-center">
+      <p className="home-paragraph">
+        Ruby and JavaScript developer based in San Francisco.{' '}
+        <a 
+          href="https://medium.com/@juliannaroen"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={this.trackEvent('Medium')}
+        >
+          Writing about tech
+        </a>.
+        Building payroll, benefits, and HR software for small businesses at{' '}
+        <a
+          href="https://gusto.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={this.trackEvent('Gusto')}
+        >Gusto</a>.
+      </p>
+    </div>
   );
 
   social = () => (

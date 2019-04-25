@@ -28,11 +28,14 @@
   padding-left: 40px;
 }
 
+.social-container {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
 .social-container img {
   max-width: 40px;
-  margin-top: 20px;
   margin-right: 10px;
-  margin-bottom: 100px;
   -webkit-filter: saturate(5);
   filter: saturate(5);
 }
@@ -51,7 +54,11 @@
 
   .portrait-text-block {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+  }
+
+  .social-container {
+    margin-bottom: 0;
   }
 }
