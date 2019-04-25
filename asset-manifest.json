@@ -1,13 +1,14 @@
 {
-  "main.css": "/static/css/main.49333913.chunk.css",
-  "main.js": "/static/js/main.0f658896.chunk.js",
-  "main.js.map": "/static/js/main.0f658896.chunk.js.map",
+  "main.css": "/static/css/main.c24c96ef.chunk.css",
+  "main.js": "/static/js/main.ed6ec905.chunk.js",
+  "main.js.map": "/static/js/main.ed6ec905.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
   "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
-  "static/js/2.1b1345f1.chunk.js": "/static/js/2.1b1345f1.chunk.js",
-  "static/js/2.1b1345f1.chunk.js.map": "/static/js/2.1b1345f1.chunk.js.map",
+  "static/js/2.47b28af0.chunk.js": "/static/js/2.47b28af0.chunk.js",
+  "static/js/2.47b28af0.chunk.js.map": "/static/js/2.47b28af0.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.8e180dbd958502512a95dc8ea112782c.js": "/precache-manifest.8e180dbd958502512a95dc8ea112782c.js",
+  "precache-manifest.a208df871a4aa94ea1f6f5ccb9cbcb41.js": "/precache-manifest.a208df871a4aa94ea1f6f5ccb9cbcb41.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.49333913.chunk.css.map": "/static/css/main.49333913.chunk.css.map"
+  "static/css/main.c24c96ef.chunk.css.map": "/static/css/main.c24c96ef.chunk.css.map",
+  "static/media/polaroid-portrait.png": "/static/media/polaroid-portrait.288429ae.png"
 }
