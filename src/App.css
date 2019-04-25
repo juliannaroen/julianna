@@ -1,5 +1,5 @@
 .app {
-  margin-top: 120px;
+  margin-top: 60px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -11,7 +11,9 @@
 }
 
 .portrait {
-  max-width: 300px;
+  max-width: 150px;
+  padding-bottom: 10px;
+  transform: rotate(3deg);
 }
 
 .block {
@@ -19,10 +21,11 @@
 }
 
 .home-paragraph {
-  text-indent: 25px;
-  max-width: 400px;
-  line-height: 30px;
   font-size: 20px;
+  line-height: 30px;
+  margin-top: 0;
+  max-width: 400px;
+  padding-left: 40px;
 }
 
 .social-container img {
@@ -37,4 +40,18 @@
 .social-container img:hover {
   -webkit-filter: saturate(8);
   filter: saturate(8);
+}
+
+@media screen and (min-width: 700px) {
+  .app {
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .portrait-text-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

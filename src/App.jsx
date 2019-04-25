@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import portrait from './assets/images/photos/polaroid-portrait.png';
 import instagram from './assets/images/icons/instagram-doodle.png';
 import github from './assets/images/icons/github-doodle.png';
 import linkedin from './assets/images/icons/linkedin-doodle.png';
@@ -11,39 +12,57 @@ class App extends Component {
     this.initReactGA();
   }
 
-  render() {
-    return (
-      <div className="app">
-        <div className="flex-center">
-          <h1>Julianna Roen</h1>
+  render = () => (
+    <div className="app">
+      <div className="portrait-text-block">
+        { this.portrait() }
+        <div>
+          <div className="flex-center">
+            { this.title() }
+          </div>
+          <div className="flex-center">
+            { this.paragraph() }
+          </div>
         </div>
-        <div className="flex-center">
-          <p className="home-paragraph">
-            Ruby and JavaScript developer based in San Francisco.{' '}
-            <a 
-              href="https://medium.com/@juliannaroen"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={this.trackEvent('Medium')}
-            >
-              Writing about tech
-            </a>.
-            Building payroll, benefits, and HR software for small businesses
-            at <a
-              href="https://gusto.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={this.trackEvent('Gusto')}
-            >Gusto</a>.
-          </p>
-        </div>
-        { this.renderSocial() }
       </div>
-    );
-  }
+      { this.social() }
+    </div>
+  );
 
-  renderSocial() {
-    return (
+  portrait = () => (
+    <div className="flex-center">
+      <img
+        src={portrait}
+        alt="Julianna Roen Portrait"
+        className="portrait"
+      />
+    </div>
+  );
+
+  title = () => <h1>Julianna Roen</h1>;
+
+  paragraph = () => (
+    <p className="home-paragraph">
+      Ruby and JavaScript developer based in San Francisco.{' '}
+      <a 
+        href="https://medium.com/@juliannaroen"
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={this.trackEvent('Medium')}
+      >
+        Writing about tech
+      </a>.
+      Building payroll, benefits, and HR software for small businesses
+      at <a
+        href="https://gusto.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={this.trackEvent('Gusto')}
+      >Gusto</a>.
+    </p>
+  );
+
+  social = () => (
       <div className="social-container flex-center">
         <a
           href="https://www.instagram.com/juliannaroen"
@@ -71,14 +90,13 @@ class App extends Component {
         </a>
       </div>
     );
-  }
 
-  initReactGA() {
+  initReactGA = () => {
     ReactGA.initialize('UA-134686188-1');
     ReactGA.pageview('home');
-  }
+  };
 
-  trackEvent(link) {
+  trackEvent = (link) => {
     ReactGA.event({
       category: 'External link click',
       action: 'Clicked a link',
