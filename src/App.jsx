@@ -53,7 +53,7 @@ class App extends Component {
         >
           Writing about tech
         </a>.
-        Building payroll, benefits, and HR software for small businesses at{' '}
+        Building hella good payroll, benefits, and HR software for small businesses at{' '}
         <a
           href="https://gusto.com"
           target="_blank"
