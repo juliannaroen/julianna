@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import portrait from './assets/images/photos/polaroid-portrait.png';
+import portrait from './assets/images/photos/polaroid-portrait-sm.png';
 import instagram from './assets/images/icons/instagram-doodle.png';
 import github from './assets/images/icons/github-doodle.png';
 import linkedin from './assets/images/icons/linkedin-doodle.png';
