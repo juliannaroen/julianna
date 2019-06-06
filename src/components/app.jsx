@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import portrait from './assets/images/photos/polaroid-portrait-sm.png';
-import instagram from './assets/images/icons/instagram-doodle.png';
-import github from './assets/images/icons/github-doodle.png';
-import linkedin from './assets/images/icons/linkedin-doodle.png';
+import portrait from '../assets/images/photos/polaroid-portrait-sm.png';
+import instagram from '../assets/images/icons/instagram-doodle.png';
+import github from '../assets/images/icons/github-doodle.png';
+import linkedin from '../assets/images/icons/linkedin-doodle.png';
 import ReactGA from 'react-ga';
-import './app.css';
 
 class App extends Component {
   constructor(props) {
