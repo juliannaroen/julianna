@@ -1,8 +1,5 @@
 import React from 'react';
-import { Title } from './title';
-import { Portrait } from './portrait';
-import { AboutMe } from './about_me';
-import { SocialLinks } from './social_links';
+import { AboutMe, Portrait, Title, SocialLinks } from './';
 import * as Events from '../helpers/events';
 
 export const App = () => {
